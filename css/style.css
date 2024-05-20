@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(69, 221, 221);
+}
+.topnav{
+    background-color:rgb(69, 221, 221);
+}
+.topnav a{
+    color: #373737;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
