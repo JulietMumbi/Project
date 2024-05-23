@@ -1,13 +1,27 @@
 body{
-    background-color: rgb(69, 221, 221);
+    background-color: #ffc0cb;
+    margin: 0;
+    
 }
-.topnav{
-    background-color:rgb(69, 221, 221);
+.header{
+    padding: 20px;
+    text-align: left;
+    background-color: #ffc0cb;
+    color: #ffc0cb;
 }
-.topnav a{
-    color: #373737;
+.content{
     float: left;
-    text-decoration: none;
-    text-align: center;
-    padding: 14px 16px;
+    width: 66%;
+    padding: 15px;
+}
+.side_bar{
+    float: left;
+    width: 34%;
+    padding: 15px;
+}
+@media  screen and(max-width: 700px) {
+    .content, .side_bar{
+        width: 100%;
+    }
+    
 }
