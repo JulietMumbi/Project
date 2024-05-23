@@ -1,27 +1,4 @@
 body{
-    background-color: #ffc0cb;
+    background-color:pink;
     margin: 0;
-    
-}
-.header{
-    padding: 20px;
-    text-align: left;
-    background-color: #ffc0cb;
-    color: #ffc0cb;
-}
-.content{
-    float: left;
-    width: 66%;
-    padding: 15px;
-}
-.side_bar{
-    float: left;
-    width: 34%;
-    padding: 15px;
-}
-@media  screen and(max-width: 700px) {
-    .content, .side_bar{
-        width: 100%;
-    }
-    
 }
