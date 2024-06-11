@@ -10,7 +10,7 @@
 <?php include_once("templates/nav.php");?>
       
     </div>
- 
+    <div class= "form">
     <section id="signup">
         <h1>Sign Up</h1>
         <form action="">
@@ -33,7 +33,7 @@
            <button type="submit">Sign Up</button>
             
         </form>
-
+</div>
     </section>
 </body>
 </html>

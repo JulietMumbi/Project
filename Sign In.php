@@ -8,8 +8,11 @@
 </head>
 <body>
 <?php include_once("templates/nav.php");?>
-    <section id="signin">
-        <h2>Sign In</h2>
+    
+    
+        <div class= "form">
+        <section id="signin">
+        <h1>Sign In</h1>
         <form action="">
             <label for="email">Email:</label><br>
             <input type="email"id="email"name="email"required><br><br>
@@ -23,6 +26,7 @@
             </label><br><br>
             <button type="submit">Sign In</button><br>
         </form>
+        </div>
 
     </section>
 </body>

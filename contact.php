@@ -19,6 +19,7 @@
    <p>You can also fill in the details below so as to request for a call back, book and save your spot.</p>
    <p>Required fields indicated by (*)</p>
     <!--FORMS-->
+   
  <form action="" >
     <label for="FN">First Name*</label><br>
     <input type="text" id="First Name" placeholder="First Name"><br><br>
@@ -47,6 +48,7 @@
 
 
 </form>
+
 <div class="footer">
         &copy; 2024.Nyumbani Student Residences.All rights reserved.
 
