@@ -21,3 +21,9 @@ body{
     background-color: azure;
     text-decoration: none;
 }
+.footer{
+    background-color: darkgrey;
+    padding: 20px;
+    font-size: 0.6em;
+    text-align: center;
+}
