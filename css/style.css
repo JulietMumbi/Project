@@ -24,6 +24,9 @@ body{
 .footer{
     background-color: darkgrey;
     padding: 20px;
-    font-size: 0.6em;
+    font-size: 0.8em;
     text-align: center;
+}
+.header{
+    text-align: left;
 }
