@@ -5,6 +5,10 @@
         <a href="Terms and Conditions.php">Terms & Conditions</a>
         <a href="Faq.php">FAQ</a>
         <a href="Refer.php">Referral</a><br>
+
+        <div class= "topnav-right">
         <a href="Sign Up.php">Sign Up</a>
         <a href="Sign In.php">Sign In</a>
+        </div>
+       
     </div>
