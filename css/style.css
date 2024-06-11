@@ -2,3 +2,7 @@ body{
     background-color: navajowhite;
     margin: 0;
 }
+.topnav{
+    background-color: darkgrey;
+    overflow: hidden;
+}
