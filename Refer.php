@@ -8,16 +8,7 @@
 </head>
 
 <body>
-    <div class="topnav">
-    <a href="index.html">Home</a>
-    <a href="about.html">About us</a>
-    <a href="contact.html">Contact us</a>
-    <a href="Terms and Conditions.html">Terms & Conditions</a>
-    <a href="Faq.html">FAQ</a>
-    <a href="Refer.html">Referral</a>
-    <a href="Sign Up.html">Sign Up</a>
-    <a href="Sign In.html">Sign In</a>
-</div>
+ 
    <h1>Exciting news!</h1>
    <p>Did you know that you can earn money by referrring a friend to come and join us here at Nyumbani Student residences? See the details below to know how to go about it.</p> 
    <p>First, you identify a University or college student looking for a place to stay.</p>

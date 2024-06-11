@@ -6,16 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="topnav">
-        <a href="./">Home</a>
-        <a href="about.html">About us</a>
-        <a href="contact.html">Contact us</a>
-        <a href="Terms and Conditions.html">Terms & Conditions</a>
-        <a href="Faq.html">FAQ</a>
-        <a href="Refer.html">Referral</a>
-        <a href="Sign Up.html">Sign Up</a>
-        <a href="Sign In.html">Sign In</a>
-    </div>
+ 
     <section id="signin">
         <h2>Sign In</h2>
         <form action="">

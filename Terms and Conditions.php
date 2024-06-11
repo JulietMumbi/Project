@@ -9,16 +9,7 @@
 </head>
 
 <body >
-    <div class="topnav">
-        <a href="./">Home</a>
-        <a href="about.html">About us</a>
-        <a href="contact.html">Contact us</a>
-        <a href="Terms and Conditions.html">Terms & Conditions</a>
-        <a href="Faq.html">FAQ</a>
-        <a href="Refer.html">Referral</a>
-        <a href="Sign Up.html">Sign Up</a>
-        <a href="Sign In.html">Sign In</a>
-    </div>
+    
     <h1 style="text-align: center; color: rgb(113, 55, 34);">Terms & Conditions</h1>
     <p>These terms of use tell you the terms of use on which you may use or access any of our website whether as a guest or registered user. Our website is managed and operated by Kidato Management Services Limited, and our offices are located at 3rd floor, Kidato house, Moi avenue, Nairobi, Kenya.</p>
     <h1 style="color: rgb(113, 55, 34);">1. Your Acceptance</h1>
