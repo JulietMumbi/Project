@@ -9,7 +9,7 @@
 
 
 <body >
-
+<?php include_once("templates/nav.php");?>
 
     <h1 style="text-align: left;">MORE ABOUT US</h1>
 

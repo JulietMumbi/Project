@@ -7,7 +7,7 @@
 </head>
 
 <body style="background-image: url(images/home\ page.webp); background-size: cover;">
-
+<?php include_once("templates/nav.php");?>
 <h1 style="color:rgb(55, 26, 185) ;">Chill, relax and feel  at home.</h1>
 
   

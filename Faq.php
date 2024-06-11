@@ -9,7 +9,7 @@
 </head>
 
 <body>
- 
+<?php include_once("templates/nav.php");?>
     <h1>Frequently Asked Questions</h1>
     <p>Here are some of the most asked questions:</p>
     <h1>1.What is Nyumbani? How does it work?</h1>

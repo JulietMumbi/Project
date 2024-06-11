@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
- 
+<?php include_once("templates/nav.php");?>
     <section id="signin">
         <h2>Sign In</h2>
         <form action="">

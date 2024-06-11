@@ -9,7 +9,7 @@
 </head>
 
 <body>
-
+<?php include_once("templates/nav.php");?>
     <div class="header">
         <h1><img src="images/Call.png" width="5%"> Reach us:</h1>
    </div>
