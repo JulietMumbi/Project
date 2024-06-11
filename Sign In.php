@@ -18,7 +18,7 @@
             <input type="password"id="password"name="password"required><br><br>
 
             <label><br>
-                <input type="checkbox"name="terms"required>I agree to the <a href="Terms and Conditions.html">Terms and Conditions</a>
+                <input type="checkbox"name="terms"required>I agree to the <a href="Terms and Conditions.php">Terms and Conditions</a>
 
             </label><br><br>
             <button type="submit">Sign In</button><br>
