@@ -21,5 +21,6 @@
     <li>Refer students to Nyumbani student residences. Ask them to put your unique referral code when they book.</li>
     <li>When your referred student checks in, payout of the referral is done within three days.</li>
    </ol>
+   
 </body>
 </html>

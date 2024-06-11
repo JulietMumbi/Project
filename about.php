@@ -26,5 +26,7 @@
         <li>Study Centre</li> 
         <li>Fully furnished rooms. </li> </ul>
 
+        
+
 </body>
 </html>

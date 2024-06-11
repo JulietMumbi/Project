@@ -25,5 +25,10 @@
         <p>No, there is no curfew. Our residences have 24-hour front entrance security and residents can enter with their Nyumbani Access Card whenever they please. However, most residences within Nairobi City have quiet hours from 10pm-8am. During final exams, we may have 24-hour quiet hours in effect.</p>
         <h1>5. Can I schedule a tour of the property before I book?</h1>
         <p>Yes, of course. You can contact us to arrange a viewing of our property.</p>
+
+        <div class="footer">
+        &copy; 2024.Nyumbani Student Residences.All rights reserved.
+
+    </div>
 </body>
 </html>

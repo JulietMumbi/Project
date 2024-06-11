@@ -47,5 +47,9 @@
 
 
 </form>
+<div class="footer">
+        &copy; 2024.Nyumbani Student Residences.All rights reserved.
+
+    </div>
 </body >
 </html>
