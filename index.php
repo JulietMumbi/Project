@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.Css">
 </head>
 
 <body style="background-image: url(images/home\ page.webp); background-size: cover;">
