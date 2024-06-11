@@ -10,7 +10,9 @@
 
 <body >
 <?php include_once("templates/nav.php");?>
+<div class="header">
     <h1 style="text-align: center; color: rgb(113, 55, 34);">Terms & Conditions</h1>
+</div>
     <p>These terms of use tell you the terms of use on which you may use or access any of our website whether as a guest or registered user. Our website is managed and operated by Kidato Management Services Limited, and our offices are located at 3rd floor, Kidato house, Moi avenue, Nairobi, Kenya.</p>
     <h1 style="color: rgb(113, 55, 34);">1. Your Acceptance</h1>
     <p>By using our website, you confirm that you accept the Terms and that you agree to comply with them. Please read and accept these terms of use carefully before using our website. If you do not agree to them, you must not use our website. If you log into our website using third party links, then you will be bound by these terms when you reach our site.</p>

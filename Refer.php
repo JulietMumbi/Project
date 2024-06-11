@@ -9,7 +9,9 @@
 
 <body>
 <?php include_once("templates/nav.php");?>
+<div class="header">
    <h1>Exciting news!</h1>
+</div>
    <p>Did you know that you can earn money by referrring a friend to come and join us here at Nyumbani Student residences? See the details below to know how to go about it.</p> 
    <p>First, you identify a University or college student looking for a place to stay.</p>
    <p>You now give him/her more information about Nyumbani along with a referral code. </p>

@@ -10,9 +10,9 @@
 
 <body>
 <?php include_once("templates/nav.php");?>
-    <div class="header">
+    
         <h1><img src="images/Call.png" width="5%"> Reach us:</h1>
-   </div>
+   
    <p>Kenya: 0805 543 222 (Toll Free)</p> 
    <p>International: +254 730 500 000</p>
    <h1>Request a callback</h1>

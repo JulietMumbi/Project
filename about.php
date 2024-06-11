@@ -10,9 +10,9 @@
 
 <body >
 <?php include_once("templates/nav.php");?>
-
-    <h1 style="text-align: left;">MORE ABOUT US</h1>
-
+<div class="header">
+    <h1>MORE ABOUT US</h1>
+</div>
     <p>Nyumbani homes are home to over 5200+ students from 73 nationalities and 148 universities. We offer a modern,safe and secure accomodation where students can live, study and connect. Here you will find everything you are looking for. Oh, and it is fully furnished and ready for you to move in! So why not browse our features and book your accomodation now.</p>
     <p>I promise, you will love it!</p>
     <ul style="color: rgb(64, 64, 144) ;">Key features at this residence include:</ul> 
