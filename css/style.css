@@ -16,3 +16,8 @@ body{
 .topnav-right{
     float: right;
 }
+.topnav a:hover{
+    color: #373737;
+    background-color: azure;
+    text-decoration: none;
+}
