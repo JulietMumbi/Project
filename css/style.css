@@ -28,7 +28,7 @@ body{
     text-align: center;
 }
 .header{
-    text-align: center;
+    text-align: center ;
 }
 input[type=text], select{
     width: 100;
@@ -42,6 +42,13 @@ input[type=text], select{
 .form{
   display: flex;
   justify-content: center; height:100vh ;
-  margin: 0;
+  box-shadow: #373737;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 
 }

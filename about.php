@@ -26,6 +26,15 @@
         <li>Study Centre</li> 
         <li>Fully furnished rooms. </li> </ul>
 
+        <p>The 4 room types are : <ol>
+            <li>Premium room - The unique thing is that it has a flatscreen tv and a sandwich maker.</li>
+            <li>Superior room - The unique thing in this room is a flatscreen tv.</li>
+            <li>Single room - This is if you want your own privacy.</li>
+            <li>Double room - This is where two people share a room.</li>
+        </ol>
+
+        </p>
+
         
 
 </body>
