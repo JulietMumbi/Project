@@ -34,6 +34,14 @@
         </ol>
 
         </p>
+        <p>Attached below are our charges for the rooms.</p>
+        <table>
+            <tr>
+                <th>Room Type</th>
+                <th>Deposit </th>
+                <th>Monthly Rent</th>
+            </tr>
+        </table>
 
         
 
