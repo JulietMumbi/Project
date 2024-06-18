@@ -41,6 +41,26 @@
                 <th>Deposit </th>
                 <th>Monthly Rent</th>
             </tr>
+            <tr>
+                <td>Premium Room</td>
+                <td>30500</td>
+                <td>30500</td>
+            </tr>
+            <tr>
+                <td>Superior Room</td>
+                <td>27500</td>
+                <td>27500</td>
+            </tr>
+            <tr>
+                <td>Single Room</td>
+                <td>21500</td>
+                <td>21500</td>
+            </tr>
+            <tr>
+                <td>Double Room</td>
+                <td>15500</td>
+                <td>15500</td>
+            </tr>
         </table>
 
         
