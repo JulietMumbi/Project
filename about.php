@@ -62,6 +62,10 @@
                 <td>15500</td>
             </tr>
         </table>
+        <div class="footer">
+        &copy; 2024.Nyumbani Student Residences.All rights reserved.
+
+    </div>
 
         
 
