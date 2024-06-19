@@ -21,13 +21,13 @@ $Mobile_Number = $_POST["Mobile_Number"];
 $email_address = $_POST["email_address"];
 
 
-$sql = "INSERT INTO MyGuests (firstname, lastname, email)
+$insert_message = "INSERT INTO contact (firstname, lastname, email)
 VALUES ('John', 'Doe', 'john@example.com')";
 
-if ($conn->query($sql) === TRUE) {
+if ($conn->query($insert_message) === TRUE) {
   echo "New record created successfully";
 } else {
-  echo "Error: " . $sql . "<br>" . $conn->error;
+  echo "Error: " . $insert_message . "<br>" . $conn->error;
 }
 
 $conn->close();
