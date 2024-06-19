@@ -13,6 +13,7 @@
 include_once("templates/nav.php");
 require_once("includes/db_connect.php");
 
+if(isset($_POST["save details"])){
 $First_Name = $_POST["First_Name"];
 $Last_Name = $_POST["Last_Name"];
 $gender = $_POST["gender"];
@@ -30,7 +31,7 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $conn->close();
-
+}
 ?>
 
     
