@@ -8,6 +8,7 @@
 </head>
 <body>
 <?php include_once("templates/nav.php");?>
+<?php require_once("includes/db_connect.php");?>
       
     </div>
     <div class= "form">
