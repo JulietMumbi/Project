@@ -21,8 +21,9 @@ $Mobile_Number = $_POST["Mobile_Number"];
 $email_address = $_POST["email_address"];
 
 
-$insert_message = "INSERT INTO contact (firstname, lastname, email)
-VALUES ('John', 'Doe', 'john@example.com')";
+$insert_message = "INSERT INTO contact 
+(FirstName, LastName, Gender, MobileNo, email)
+VALUES ('$First_Name', '$Last_Name', '$gender', '$Mobile_Number', '$email_address'  )";
 
 if ($conn->query($insert_message) === TRUE) {
   echo "New record created successfully";
