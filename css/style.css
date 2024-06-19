@@ -54,6 +54,6 @@ input[type=text], select{
 }
 .table{
     border: solid 1px #373737;
-    width: 75%;
+    width: 70%;
     border-collapse: collapse;
 }
