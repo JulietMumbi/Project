@@ -46,13 +46,13 @@ $conn->close();
    
  <form action="<?php print htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method= "POST" class="contact_form" >
     <label for="FN">First Name*</label><br>
-    <input type="text" name = "First_Name" id="FN" placeholder="First Name"><br><br>
+    <input type="text" name = "First_Name" id="FN" placeholder="First Name" required><br><br>
 
     <label for="LN"> Last Name* </label><br>
-    <input type="text" name = "Last_Name "id="LN" placeholder="Last Name"><br><br>
+    <input type="text" name = "Last_Name "id="LN" placeholder="Last Name" required><br><br>
 
     <label for="sex">Gender:</label><br>
-    <select name="gender" id="sex">
+    <select name="gender" id="sex" required>
         <option value="">---Select Gender</option>
         <option value="1">Male</option>
         <option value="2">Female</option>
@@ -60,12 +60,12 @@ $conn->close();
     <br><br>
  
     <label for="MN">Mobile Number*</label><br>
-    <input type="text" name ="Mobile_Number" id="MN" placeholder="Mobile Number"><br><br>
+    <input type="text" name ="Mobile_Number" id="MN" placeholder="Mobile Number" required><br><br>
 
     <label for="eml">Email*</label><br>
-    <input type="text" name = "email_address" id="Email" placeholder="Email"><br><br>
+    <input type="text" name = "email_address" id="Email" placeholder="Email" required><br><br>
 
-    <input type="submit" name = "save details" value="Save Details"><br><br>
+    <input type="submit" name = "save details" value="Save Details" required><br><br>
     <p>You can also find us on all social media platforms .</p>
     <p>We will be happy to attend to you.</p>
 
