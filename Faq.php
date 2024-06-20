@@ -13,7 +13,7 @@
 <div class="header">
     <h1>Frequently Asked Questions</h1>
 </div>
-    <p>Here are some of the most asked questions:</p>
+    <p>Your Questions Answered:</p>
     <h1>1.What is Nyumbani? How does it work?</h1>
     <p>In one sentence, Nyumbani Student Residences is Kenya's largest network of purpose-built student accommodation in Nairobi. In detail, Nyumbani is a first-of-its-kind, technology-driven and professionally-managed brand of student accommodation, that is changing the way students live in Nairobi City. Nyumbani Student Residences is designed for young students who are looking for a place that is designed specifically for them, keeping their needs, comforts, and aspirations in mind. A place that can become your second home.</p>
     <h1>2. Who can live at Nyumbani?</h1>
