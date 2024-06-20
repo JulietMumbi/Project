@@ -15,14 +15,14 @@ require_once("includes/db_connect.php");
 
 if(isset($_POST["save_details"])){
 $firstname = mysqli_real_escape_string($conn, addslashes ($_POST["firstname"]));
-$last_name =  mysqli_real_escape_string($conn, addslashes ($_POST["lastname"]));
+$lastname =  mysqli_real_escape_string($conn, addslashes ($_POST["lastname"]));
 $gender =  mysqli_real_escape_string($conn, addslashes ( $_POST["gender"]));
 $mobilenumber = mysqli_real_escape_string($conn, addslashes ($_POST["mobilenumber"]));
 $email =  mysqli_real_escape_string($conn, addslashes ($_POST["emailaddress"]));
 
 
 $insert_message = "INSERT INTO contact (FirstName, LastName, Gender, MobileNo, email)
-VALUES ('$firstname', '$last_name', '$gender', '$mobilenumber', '$email'  )";
+VALUES ('$firstname', '$lastname', '$gender', '$mobilenumber', '$email'  )";
 
 if ($conn->query($insert_message) === TRUE) {
   echo "New record created successfully";
@@ -49,7 +49,7 @@ $conn->close();
     <input type="text" name = "firstname" id="FN" placeholder="First Name" required><br><br>
 
     <label for="LN"> Last Name* </label><br>
-    <input type="text" name = "last_name "id="LN" placeholder="Last Name" required><br><br>
+    <input type="text" name = "lastname "id="LN" placeholder="Last Name" required><br><br>
 
     <label for="sex">Gender:</label><br>
     <select name="gender" id="sex" required>
