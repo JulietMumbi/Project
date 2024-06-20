@@ -13,16 +13,16 @@
 include_once("templates/nav.php");
 require_once("includes/db_connect.php");
 
-if(isset($_POST["save details"])){
-$First_Name = $_POST["First_Name"];
-$Last_Name = $_POST["Last_Name"];
-$gender = $_POST["gender"];
-$Mobile_Number = $_POST["Mobile_Number"];
-$email_address = $_POST["email_address"];
+if(isset($_POST["save_details"])){
+$firstname = mysqli_real_escape_string($conn, addslashes ($_POST["firstname"]));
+$lastname =  mysqli_real_escape_string($conn, addslashes ($_POST["lastname"]));
+$gender =  mysqli_real_escape_string($conn, addslashes ( $_POST["gender"]));
+$mobilenumber = mysqli_real_escape_string($conn, addslashes ($_POST["mobilenumber"]));
+$email =  mysqli_real_escape_string($conn, addslashes ($_POST["emailaddress"]));
 
 
 $insert_message = "INSERT INTO contact (FirstName, LastName, Gender, MobileNo, email)
-VALUES ('$First_Name', '$Last_Name', '$gender', '$Mobile_Number', '$email_address'  )";
+VALUES ('$firstname', '$lastname', '$gender', '$mobilenumber', '$email'  )";
 
 if ($conn->query($insert_message) === TRUE) {
   echo "New record created successfully";
@@ -46,10 +46,10 @@ $conn->close();
    
  <form action="<?php print htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method= "POST" class="contact_form" >
     <label for="FN">First Name*</label><br>
-    <input type="text" name = "First_Name" id="FN" placeholder="First Name" required><br><br>
+    <input type="text" name = "firstname" id="FN" placeholder="First Name" required><br><br>
 
     <label for="LN"> Last Name* </label><br>
-    <input type="text" name = "Last_Name "id="LN" placeholder="Last Name" required><br><br>
+    <input type="text" name = "lastname "id="LN" placeholder="Last Name" required><br><br>
 
     <label for="sex">Gender:</label><br>
     <select name="gender" id="sex" required>
@@ -60,12 +60,12 @@ $conn->close();
     <br><br>
  
     <label for="MN">Mobile Number*</label><br>
-    <input type="text" name ="Mobile_Number" id="MN" placeholder="Mobile Number" required><br><br>
+    <input type="text" name ="mobilenumber" id="MN" placeholder="Mobile Number" required><br><br>
 
     <label for="eml">Email*</label><br>
-    <input type="text" name = "email_address" id="Email" placeholder="Email" required><br><br>
+    <input type="text" name = "emailaddress" id="Email" placeholder="Email" required><br><br>
 
-    <input type="submit" name = "save details" value="Save Details" required><br><br>
+    <input type="submit" name = "save_details" value="Save Details" required><br><br>
     <p>You can also find us on all social media platforms .</p>
     <p>We will be happy to attend to you.</p>
 
