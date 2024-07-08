@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 19, 2024 at 12:31 PM
+-- Generation Time: Jul 08, 2024 at 03:15 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -26,26 +26,17 @@ USE `residence`;
 -- --------------------------------------------------------
 
 --
--- Table structure for table `employees`
+-- Table structure for table `contactus`
 --
 
-DROP TABLE IF EXISTS `employees`;
-CREATE TABLE `employees` (
-  `Fullname` varchar(50) NOT NULL,
-  `employeeid` varchar(50) NOT NULL,
-  `TelephoneNo` bigint(11) DEFAULT NULL,
-  `email` varchar(50) DEFAULT NULL
+DROP TABLE IF EXISTS `contactus`;
+CREATE TABLE `contactus` (
+  `firstname` varchar(50) NOT NULL,
+  `lastname` varchar(50) NOT NULL,
+  `gender` varchar(50) NOT NULL,
+  `mobilenumber` bigint(11) DEFAULT NULL,
+  `email` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `employees`
---
-
-INSERT INTO `employees` (`Fullname`, `employeeid`, `TelephoneNo`, `email`) VALUES
-('Jane Mwangi', '6123', 721875430, 'janemwangi3@gmail.com'),
-('John Gitau', '6056', 723145687, 'johng@gmail.com'),
-('Maina Njoroge', '6439', 725489065, 'njorogemai@gmail.com'),
-('Nelson Nyatuka', '6570', 745632189, 'nyatuka5@gmail.com');
 
 -- --------------------------------------------------------
 
@@ -55,21 +46,19 @@ INSERT INTO `employees` (`Fullname`, `employeeid`, `TelephoneNo`, `email`) VALUE
 
 DROP TABLE IF EXISTS `employers`;
 CREATE TABLE `employers` (
-  `userid` bigint(11) NOT NULL,
-  `Fullname` varchar(50) DEFAULT NULL,
+  `Fullname` varchar(50) NOT NULL,
+  `userid` varchar(50) NOT NULL,
   `email` varchar(50) NOT NULL,
-  `password` varchar(60) DEFAULT NULL
+  `mobileno` bigint(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `employers`
 --
 
-INSERT INTO `employers` (`userid`, `Fullname`, `email`, `password`) VALUES
-(3456, 'Viviane Wangari', 'wangariv@gmail.com', '87621'),
-(5674, 'Joy Mbote', 'joymbote@gmail.com', '57890'),
-(7865, 'Juliet Mumbi', 'mumbijuliet5@gmail.com', '35420'),
-(9851, 'Angel Muthoni', 'angel@gmail.com', '46892');
+INSERT INTO `employers` (`Fullname`, `userid`, `email`, `mobileno`) VALUES
+('John Gitau', '5674', 'johng@gmail.com', 768975432),
+('Nelson Nyatuka', '3456', 'nyatuka5@gmail.com', 721564389);
 
 -- --------------------------------------------------------
 
@@ -79,47 +68,43 @@ INSERT INTO `employers` (`userid`, `Fullname`, `email`, `password`) VALUES
 
 DROP TABLE IF EXISTS `students`;
 CREATE TABLE `students` (
-  `studentid` varchar(11) NOT NULL,
-  `schoolname` varchar(50) DEFAULT NULL,
-  `password` varchar(50) DEFAULT NULL,
-  `roomname` varchar(50) DEFAULT NULL
+  `Name` varchar(50) NOT NULL,
+  `school` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `roomname` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `students`
 --
 
-INSERT INTO `students` (`studentid`, `schoolname`, `password`, `roomname`) VALUES
-('143576', 'Wilson University', '6734', '573'),
-('166071', 'University of Nairobi', '6087', '876'),
-('168051', 'Strathmore University', '6051', '329'),
-('169081', 'Boma International ', '6104', '234'),
-('169389', 'Riara University', '6075', '456');
+INSERT INTO `students` (`Name`, `school`, `email`, `roomname`) VALUES
+('Brian Munyori', 'Riara University', 'brian@gmail.com', '456'),
+('Juliet Mochoge', 'Strathmore University', 'juliet5@gmail.com', '329');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `employees`
+-- Indexes for table `contactus`
 --
-ALTER TABLE `employees`
-  ADD PRIMARY KEY (`Fullname`),
-  ADD UNIQUE KEY `employeeid` (`employeeid`);
+ALTER TABLE `contactus`
+  ADD PRIMARY KEY (`email`);
 
 --
 -- Indexes for table `employers`
 --
 ALTER TABLE `employers`
-  ADD PRIMARY KEY (`userid`),
-  ADD UNIQUE KEY `email` (`email`);
+  ADD PRIMARY KEY (`email`(11)),
+  ADD UNIQUE KEY `userid` (`userid`);
 
 --
 -- Indexes for table `students`
 --
 ALTER TABLE `students`
-  ADD PRIMARY KEY (`studentid`),
-  ADD UNIQUE KEY `schoolname` (`schoolname`);
+  ADD PRIMARY KEY (`Name`),
+  ADD UNIQUE KEY `school` (`school`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
