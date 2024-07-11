@@ -21,7 +21,7 @@ $mobilenumber = mysqli_real_escape_string($conn, addslashes ($_POST["mobilenumbe
 $email =  mysqli_real_escape_string($conn, addslashes ($_POST["emailaddress"]));
 
 
-$insert_message = "INSERT INTO contact (FirstName, LastName, Gender, MobileNo, email)
+$insert_message = "INSERT INTO contactus (firstname, lastname, gender, mobileno, email)
 VALUES ('$firstname', '$lastname', '$gender', '$mobilenumber', '$email'  )";
 
 if ($conn->query($insert_message) === TRUE) {
